@@ -12,7 +12,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Lanterna da Fiinha'),
+        title: Text('Lanterna'),
         elevation: 3,
         centerTitle: true,
         backgroundColor: Colors.blue,
@@ -20,7 +20,7 @@ class _HomePageState extends State<HomePage> {
       body: Container(
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: AssetImage('assets/image/fi.jpg'),
+            image: AssetImage('assets/image/1030.jpg'),
             fit: BoxFit.cover,
           ),
         ),
